@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: local('Proxima Nova Font'), url('../../../assets/fonts/Proxima-Nova-Font.otf') format('truetype');
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#root{
+    background-color: #2d1948;
+}
+.container{
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+}

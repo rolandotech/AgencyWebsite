@@ -1,0 +1,101 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    
+    .banner{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 900px;
+        overflow: hidden;
+        background-image: url("../../assets/img/banner.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        .container{
+            padding-left: 20px;
+            .banner-title {
+                p {
+                    line-height: 86px;
+                    letter-spacing: 5px;
+                    font-weight: 600;
+                    font-family: Proxima Nova;
+                    padding: 0px;
+                    margin: 0px;
+                    color: #ffffff;
+                }
+                .p1{
+                    font-size: 80px;
+                }
+                .p2{
+                    font-size: 70px;
+                    font-weight: bold;
+                }
+                .p3{
+                    font-size: 70px;
+                    font-weight: bold;
+                    color: #f33c7a;
+                }
+            }
+            .description{
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 2px;
+                font-family: Proxima Nova;
+                width: 55%;
+                color: #ffffff;
+            }
+            .clickMore{
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 2px;
+                font-family: Proxima Nova;
+                color: #ffffff;
+                border-radius: 1px;
+                background-color: #f33c7a;
+            }
+        }
+    }
+    .aboutUs{
+        padding: 50px 0px;
+        .container{
+            h2{
+                text-align: center;
+                color: #ffffff;
+                font-family: Proxima Nova;
+                font-size: 28px;
+                line-height: 34px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+            .holder{
+                display: flex;
+                .content{
+                    width: 40%;
+                    h4{
+                        color: #ffffff;
+                        font-family: Proxima Nova;
+                        font-size: 38px;
+                        line-height: 44px;
+                        letter-spacing: 1px;
+                    }
+                    p{
+                        color: #ffffff;
+                        font-family: Proxima Nova;
+                        font-size: 16px;
+                        line-height: 22px;
+                        letter-spacing: 1px;
+                    }
+                }
+                .image-holder{
+                    width: 60%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .img-round{
+                        
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+#header{
+    width: 100%;
+    height: 100px;
+    padding-top: 16px;
+    position: fixed;
+    .container{
+        border-bottom: 1px solid #705096;
+        .app-bar{
+            position: unset;
+            background-color: unset;
+            box-shadow: none;
+            .toolBar{
+                padding: 0px;
+                .logo{
+                    font-family: Proxima Nova;
+                }
+                .menuMobile{
+                    display: none;
+                }
+                .menu-holder{
+                    .menu-btn{
+                        color: #ffffff;
+                        position: relative;
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-weight: 600;
+                        font-family: Proxima Nova;
+                        letter-spacing: 1px;
+                        &:hover{
+                            background-color: unset;
+                            &::after{
+                                content: "";
+                                border: 1px solid #f33c7a;
+                                border-radius: 5px;
+                                width: 20px;
+                                position: absolute;
+                                bottom: 0;
+                            }
+                        }
+                       
+                    }
+                }
+            }
+        }
+        .drawer{
+            
+        }
+    }
+
+    @media only screen and (max-width: 980px) { }
+
+    @media only screen and (max-width: 767px) {
+        .container{
+            .app-bar{
+                .menuMobile{
+                    display: block;
+                }
+                .menu-holder{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        
+    }
+
+    @media only screen and (max-width: 440px) { }
+
+    @media only screen and (max-width: 320px) { }
+
+    @media only screen and (max-width: 90%) { }
+}
