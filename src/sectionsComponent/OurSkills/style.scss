@@ -1,0 +1,22 @@
+#ourSkills{
+    background-color: #1b0c30;
+    padding: 50px 0px;
+    .container{
+        .statistics{
+            display: flex;
+            gap: 20px;
+            svg{
+                color: #ffffff;
+                path.CircularProgressbar-trail{
+                    stroke: #b9b9b954;
+                }
+                path.CircularProgressbar-path{
+                    stroke: #ffffff;
+                }
+                text{
+                    fill: #ffffff;
+                }
+            }
+        }
+    }
+}
